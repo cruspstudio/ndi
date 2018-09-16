@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{% static "css/main_styles.css" %}" />
     <link rel="stylesheet" type="text/css" media="screen" href="{% static "css/reset.css" %}" />
     <link rel="stylesheet" type="text/css" media="screen" href="{% static "css/general.css" %}" />
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
@@ -130,28 +131,13 @@
 
             </div>
         </div>
-            <!--<div class="bottom-slider">
-                <h3>Наші роботи</h3>
-                <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    {% for main_slide in all_main_slide %}
-                        <div class="swiper-slide"><img src="{{ main_slide.image.url }}"></div>
-                    {% endfor %}
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                </div>
-                <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
-                <a href="#" class="prepend-slide">Prepend Slide</a>
-                <a href="#" class="append-slide">Append Slide</a>
-                <a href="#" class="append-2-slides">Append 2 Slides</a>
-                </p>
+            <div class="bottom-slider">
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
 
-                <script src="../dist/js/swiper.min.js"></script>
-
-
-            </div>-->
-
+            </div>
+            
  
     </section>
     <footer>
@@ -246,6 +232,16 @@
                 '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
                 '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
                 ]);
+            });
+          </script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script type="text/javascript" src="slick/slick.min.js"></script>
+          <script>
+            $(document).ready(function(){
+            $('.bottom-slider').slick({
+                setting-name: setting-value
+            });
             });
           </script>
 </body>
