@@ -7,6 +7,12 @@
     padding-bottom: 20px;
 }
 .about-div-first {
-    max-width: 50%;
+    max-width: 70%;
     font-size: 16px;
+}
+.about-div-logo {
+    max-width: 130px;
+    position: relative;
+    top: -260px;
+    left: 550px;
 }
