@@ -182,6 +182,7 @@ input:focus ~ .header-bar:after {
   font-weight: bold;
   font-size: 22px;
   padding-left: 90px;
+  padding-top: 25px;
 }
 
 aside {
@@ -317,10 +318,13 @@ footer h4 {
     padding-left: 0;
   }
 }
-@media all and (max-width: 835px) {
-  .main {
-    margin-top: 110px;
+@media all and (max-width: 840px) {
+  .main h2 {
+    padding-top: 50px;
   }
+
+}
+@media all and (max-width: 835px) {
   aside h2 {
     margin-left: 10%;
   }
@@ -348,9 +352,6 @@ footer h4 {
   }
 }
 @media all and (max-width: 750px) { 
-  .main {
-    margin-top: 100px;
-  }
   aside {
     text-align: center;
   }
@@ -377,17 +378,13 @@ footer h4 {
   }
 }
 @media all and (max-width: 665px) {
-  .main {
-    margin-top: 110px;
-  }
   .main h2 {
     padding-left: 15px;
   }
 }
 @media all and (max-width: 560px) {
-
   footer {
-    height: 610px;
+    height: 620px;
   }
   .footer-div {
     display: flex;
@@ -424,7 +421,7 @@ footer h4 {
     margin-right: 55px;
   }
   .main {
-    margin-top: 160px;
+    margin-top: 150px;
   }
   .main h2 {
     text-align: center;
