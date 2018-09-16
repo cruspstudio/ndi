@@ -1,0 +1,12 @@
+.about-div {
+    max-width: 50%;
+    margin: 50px 0 200px 250px;
+}
+.about-div h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.about-div-first {
+    max-width: 50%;
+    font-size: 16px;
+}
