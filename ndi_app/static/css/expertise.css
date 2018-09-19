@@ -1,15 +1,5 @@
-aside {
-  display: block !important;
-}
-
 .advantages-div {
   background-color: #fff07b;
-}
-.main {
-  font-family: 'Montserrat', sans-serif;
-}
-.main h2 {
-  padding-top: 25px;
 }
 .dropdown-menu{
 	width: 300px;
